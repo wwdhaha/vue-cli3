@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import $ from "jquery";
 import Vue from "vue";
 
 import ElementUI from "element-ui";
@@ -7,6 +9,8 @@ Vue.use(ElementUI);
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
+// 权限控制
+import "./permission";
 
 Vue.config.productionTip = false;
 
